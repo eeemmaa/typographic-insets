@@ -99,3 +99,17 @@ main p:first-child::first-letter {
   float: left;
   margin-right: 0.5rem;
 }
+
+figure {
+  float: right;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 0.5rem 0;
+}
+
+figcaption {
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+  font-style: italic;
+}
